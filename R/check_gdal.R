@@ -33,7 +33,7 @@
 check_gdal <- function(abort = TRUE, force = FALSE) {
   
   # set minimum GDAL version
-  gdal_minversion <- package_version("2.1.3")
+  gdal_minversion <- package_version("2.1.2")
   
   # load the saved GDAL path, if exists
   binpaths <- load_binpaths()
